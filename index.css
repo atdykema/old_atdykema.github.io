@@ -121,15 +121,6 @@ a:hover{
     font-size: 3vw;
 }
 
-.skill-box-big{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 10vh;
-    width: 70vw;
-    font-size: 5vw;
-}
-
 #about-me-title{
     margin-top: 5vh;
 }
@@ -164,18 +155,39 @@ a:hover{
 .about-me-col{
     display: flex;
     flex-direction: row;
-    margin-bottom: 8vh;
+    margin-bottom: 3vh;
+}
+
+.skill-box-big{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 6vh;
+    width: 22vw;
+    font-size: 5vw;
 }
 
 .skills{
     transition: transform 1s;
+}
+
+.column-skills{
+    display: flex;
+    flex-direction: column;
+    width: 50vh;
+
+}
+
+.skills-box-row{
+    display: flex;
+    flex-direction: row;
 }
 .skills:hover{
     transform: scale(1.1);
 }
 
 .name-skills{
-    font-size: 10vh;
+    font-size: 5vh;
     color:black;
 }
 
@@ -187,7 +199,7 @@ a:hover{
 
 #python-skill{
     padding-top: 1.25vh;
-    height: 20vh;
+    height: 10vh;
     width: auto;
     animation: up-down 4.7s infinite alternate;
 }
@@ -200,7 +212,7 @@ a:hover{
 
 #golang-skill{
     padding-top: 1.25vh;
-    height: 15vh;
+    height: 5vh;
     width: auto;
     animation: up-down 4.7s infinite alternate;
 }
@@ -213,7 +225,7 @@ a:hover{
 
 #js-skill{
     padding-top: 1.25vh;
-    height: 15vh;
+    height: 7vh;
     width: auto;
     animation: up-down 4.7s infinite alternate;
 }
@@ -228,7 +240,7 @@ a:hover{
 
 #java-skill{
     padding-bottom: 1.25vh;
-    height: 20vh;
+    height: 10vh;
     width: auto;
     animation: up-down 5.3s infinite alternate;
 }
@@ -241,7 +253,7 @@ a:hover{
 
 #c-skill{
     padding-top: 1.25vh;
-    height: 20vh;
+    height: 10vh;
     width: auto;
     animation: up-down 5s infinite alternate;
 }
@@ -255,10 +267,9 @@ a:hover{
 
 #k8-skill{
     padding-top: 1.25vh;
-    height: 25vh;
+    height: 15vh;
     width: auto;
     animation: up-down 5.7s infinite alternate;
-    padding-right: 5vh;
     margin-left: 2vh;
     
 }
@@ -275,7 +286,7 @@ a:hover{
 
 #terraform-skill{
     padding-top: 1.25vh;
-    height: 25vh;
+    height: 12.5vh;
     width: auto;
     animation: up-down 5.5s infinite alternate;
 }
@@ -288,14 +299,14 @@ a:hover{
 
 #aws-skill{
     padding-top: 1.25vh;
-    height: 15vh;
+    height: 7.5vh;
     width: auto;
     animation: up-down 4.5s infinite alternate;
 }
 
 #linux-skill{
     padding-top: 1.25vh;
-    height: 25vh;
+    height: 12.5vh;
     width: auto;
     animation: up-down 5.3s infinite alternate;
 }
@@ -314,7 +325,7 @@ a:hover{
 
 #docker-skill{
     padding-top: 1.25vh;
-    height: 15vh;
+    height: 7.5vh;
     width: auto;
     animation: up-down 4s infinite alternate;
 }
@@ -327,7 +338,7 @@ a:hover{
 
 #git-skill{
     padding-top: 1.25vh;
-    height: 15vh;
+    height: 7.5vh;
     width: auto;
     animation: up-down 4.9s infinite alternate;
 }
