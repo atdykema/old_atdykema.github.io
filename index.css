@@ -11,8 +11,8 @@
 
 html{
     scroll-behavior: smooth;
+    scrollbar-width: thin;
 }
-
 div{
     display: block;
 }
