@@ -117,7 +117,7 @@ a:hover{
 }
 
 .subject-body{
-    padding: 2vw;
+    padding: 3vw;
     font-size: 3vw;
 }
 
@@ -179,7 +179,7 @@ a:hover{
 }
 
 #skills-title{
-    padding-top: 15vh;
+    padding-top: 10vh;
     padding-bottom: 10vh;
 }
 
@@ -389,7 +389,7 @@ a:hover{
 }
 */
 #my-projects-title{
-    padding-top: 20vh;
+    padding-top: 10vh;
     padding-bottom: 10vh;
 }
 
@@ -466,6 +466,7 @@ a:hover{
 
 #contact-me-title{
     margin-top: 3vh;
+    padding-top: 20vh;
     margin-bottom: 10vh;
 }
 
