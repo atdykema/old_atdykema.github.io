@@ -164,7 +164,7 @@ a:hover{
 .about-me-col{
     display: flex;
     flex-direction: row;
-    margin-bottom: 3vh;
+    margin-bottom: 8vh;
 }
 
 .skills{
