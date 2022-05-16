@@ -110,6 +110,10 @@ a:hover{
     font-size: 5vw;
 }
 
+#about-me-title{
+    margin-top: 5vh;
+}
+
 .about-me{
     display: flex;
     flex-direction: column;
