@@ -1,6 +1,11 @@
 @font-face{
     font-family: main-font;
-    src:url(../resources/Alcubierre.otf)
+    src:url(../resources/forum.ttf)
+}
+
+@font-face{
+    font-family: sig-font;
+    src:url(../resources/metro.ttf)
 }
 
 
@@ -47,27 +52,42 @@ a:hover{
     
 }
 
+.title-name-box{
+    display: flex;
+    flex-direction: row;
+}
+
 .title-name{
     color: black;
-    padding-top: 10%;
-    margin-bottom: 10%;
     font-size: 8vw;
-    transition: .1s;
+    font-family: sig-font;
     
+}
+
+#title-name-andrew{
+    animation: fadeinSlideleft ease-in 2s;
+    padding-top: 10vh;
+    margin-right: 20vw;
+}
+
+#title-name-dykema{
+    margin-left: 20vw;
+    animation: fadeinSlideright ease-in 2s;
+    padding-bottom: 8vh;
 }
 
 .title-catch{
     color: black;
-    padding-top: 12%;
+    padding-top: 8%;
     font-size: 3vw;
-    transition: .3s;
+    animation: fadein ease-in 1s;
 }
 
 .nav-bar{
     padding-top: 2%;
     font-size: 3vw;
     color: black;
-    transition: .2s;
+    animation: fadein ease-in 1s;
 }
 
 .nav-a{
@@ -121,7 +141,8 @@ a:hover{
     justify-content: center;
     font-size: 4vh;
     color: black;
-    margin: 5vw;
+    margin: 2vw;
+    margin-bottom: 3vh;
 }
 
 .about-me-p{
@@ -129,7 +150,21 @@ a:hover{
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-bottom: 5vh;
+    padding-bottom: 1vh;
+
+}
+
+#myface{
+    height: 500px;
+    border-radius: 100%;
+    border: #000000 solid 2px;
+    object-fit: contain;
+}
+
+.about-me-col{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3vh;
 }
 
 .skills{
@@ -140,7 +175,6 @@ a:hover{
 }
 
 .name-skills{
-    padding-top: 2vh;
     font-size: 10vh;
     color:black;
 }
@@ -148,6 +182,7 @@ a:hover{
 #python-skill-box{
     background: linear-gradient(to right, #4B8BBE , #FFD43B);
     box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+    border-radius: 10px;
 }
 
 #python-skill{
@@ -160,6 +195,7 @@ a:hover{
 #golang-skill-box{
     background: linear-gradient(to right, #4af0ff , #ffffff);
     box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+    border-radius: 10px;
 }
 
 #golang-skill{
@@ -172,6 +208,7 @@ a:hover{
 #js-skill-box{
     background: linear-gradient(to right, #f8ff20 , #000000);
     box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+    border-radius: 10px;
 }
 
 #js-skill{
@@ -186,6 +223,7 @@ a:hover{
 #java-skill-box{
     background: linear-gradient(to right, #f89820 33%, #5382a1);
     box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+    border-radius: 10px;
 }
 
 #java-skill{
@@ -198,6 +236,7 @@ a:hover{
 #c-skill-box{
     background: linear-gradient(to right, #ffffff , #003DA7);
     box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+    border-radius: 10px;
 }
 
 #c-skill{
@@ -210,6 +249,7 @@ a:hover{
 #k8-skill-box{
     background: linear-gradient(to right, #346ce4, #ffffff);
     box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+    border-radius: 10px;
     
 }
 
@@ -230,6 +270,7 @@ a:hover{
 #terraform-skill-box{
     background: linear-gradient(to right, #4444b4, #846fec );
     box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+    border-radius: 10px;
 }
 
 #terraform-skill{
@@ -242,6 +283,7 @@ a:hover{
 #aws-skill-box{
     background: linear-gradient(to right, 	#232f3e, 	#ff9900 );
     box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+    border-radius: 10px;
 }
 
 #aws-skill{
@@ -261,11 +303,13 @@ a:hover{
 #linux-skill-box{
     background: linear-gradient(to right, #ffdf2d 30%, #000000, #ffffff);
     box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+    border-radius: 10px;
 }
 
 #docker-skill-box{
     background: linear-gradient(to right, 	#52a0ff, 	#bebebe );
     box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+    border-radius: 10px;
 }
 
 #docker-skill{
@@ -278,6 +322,7 @@ a:hover{
 #git-skill-box{
     background: linear-gradient(to right, 	#ffffff, 	#000000 );
     box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+    border-radius: 10px;
 }
 
 #git-skill{
@@ -403,6 +448,7 @@ a:hover{
 
 
 #contact-me-title{
+    margin-top: 3vh;
     margin-bottom: 10vh;
 }
 
@@ -468,4 +514,44 @@ footer{
         color: rgb(255, 174, 174);
     }
     
+}
+
+@keyframes fadein{
+    0%{
+        opacity: 0%;
+    }
+    50%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+@keyframes fadeinSlideleft{
+    0%{
+        transform: translateX(-5vw);
+        opacity: 0%;
+    }
+    50%{
+        opacity: 0%;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 100%;
+    }
+}
+
+@keyframes fadeinSlideright{
+    0%{
+        transform: translateX(5vw);
+        opacity: 0%;
+    }
+    50%{
+        opacity: 0%;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 100%;
+    }
 }
