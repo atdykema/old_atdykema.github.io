@@ -157,6 +157,32 @@ a:hover{
     animation: up-down 4.7s infinite alternate;
 }
 
+#golang-skill-box{
+    background: linear-gradient(to right, #4af0ff , #ffffff);
+    box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+}
+
+#golang-skill{
+    padding-top: 1.25vh;
+    height: 15vh;
+    width: auto;
+    animation: up-down 4.7s infinite alternate;
+}
+
+#js-skill-box{
+    background: linear-gradient(to right, #f8ff20 , #000000);
+    box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+}
+
+#js-skill{
+    padding-top: 1.25vh;
+    height: 15vh;
+    width: auto;
+    animation: up-down 4.7s infinite alternate;
+}
+
+
+
 #java-skill-box{
     background: linear-gradient(to right, #f89820 33%, #5382a1);
     box-shadow: 2px 4px 6px rgba(0,0,0,.5);
@@ -250,7 +276,7 @@ a:hover{
 }
 
 #git-skill-box{
-    background: linear-gradient(to right, 	#000000, 	#ffffff );
+    background: linear-gradient(to right, 	#ffffff, 	#000000 );
     box-shadow: 2px 4px 6px rgba(0,0,0,.5);
 }
 
@@ -309,7 +335,7 @@ a:hover{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 60vh;
+    height: 40vh;
     width: 80vw;
     margin-bottom: 5vh;
 }
@@ -342,13 +368,19 @@ a:hover{
     color: black;
 }
 
+.project-tech{
+    padding-bottom: 1vh;
+    font-style: italic;
+}
+
 .project-link{
     font-size: 3vh;
     color: black;
     border-radius: 20px;
     padding-left: 1vh;
     padding-right: 1vh;
-    margin: 2vh;
+    margin: 1vh;
+    text-align: center;
 }
 
 
@@ -380,6 +412,7 @@ a:hover{
     height: 20vh;
     width: 50vw;
     justify-content: space-around;
+    margin-bottom: 22vh;
 }
 
 .github-contact-img{
