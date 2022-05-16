@@ -17,7 +17,7 @@ body{
     flex-direction: column;
     align-items: center;
     font-family: main-font;
-    background: url(images/phasnr_background_ps.png);
+    
 }
 
 a{
@@ -39,42 +39,39 @@ a:hover{
 .inner-main-hero{
     display: flex;
     width: 80vw;
-    border-width: 1px;
-    
     flex-direction: column;
     align-items: center;
     margin: 1vh;
     height: 100%;
     background-size: cover;
-    background: rgba(168, 168, 168, 0.1);
-    box-shadow: 2px 4px 6px rgba(0,0,0,.5);
-    border-radius: 50px;
+    
 }
 
 .title-name{
-    color: white;
+    color: black;
+    padding-top: 10%;
     margin-bottom: 10%;
     font-size: 8vw;
     transition: .1s;
+    
 }
 
 .title-catch{
-    color: white;
-    
+    color: black;
+    padding-top: 12%;
     font-size: 3vw;
     transition: .3s;
 }
 
 .nav-bar{
-    padding-top: 6%;
+    padding-top: 2%;
     font-size: 3vw;
-    color: white;
+    color: black;
     transition: .2s;
-    margin-bottom: 10%;
 }
 
 .nav-a{
-    color: white;
+    color: black;
 }
 
 
@@ -90,16 +87,13 @@ a:hover{
     margin: 10px;
     height: 100%;
     background-size: cover;
-    background: rgba(168, 168, 168, 0.1);
-    box-shadow: 2px 4px 6px rgba(0,0,0,.5);
-    border-radius: 50px;
 }
 
 .subject-title{
     padding-top: 10vh;
     font-size: 6vw;
     font-weight: 500;
-    color: white;
+    color: black;
 }
 
 .subject-body{
@@ -114,7 +108,6 @@ a:hover{
     height: 10vh;
     width: 70vw;
     font-size: 5vw;
-    border-radius: 2vh;
 }
 
 .about-me{
@@ -123,7 +116,7 @@ a:hover{
     align-items: center;
     justify-content: center;
     font-size: 4vh;
-    color: white;
+    color: black;
     margin: 5vw;
 }
 
@@ -132,6 +125,7 @@ a:hover{
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding-bottom: 5vh;
 }
 
 .skills{
@@ -142,8 +136,9 @@ a:hover{
 }
 
 .name-skills{
+    padding-top: 2vh;
     font-size: 10vh;
-    color:white;
+    color:black;
 }
 
 #python-skill-box{
@@ -261,16 +256,13 @@ a:hover{
     width: auto;
     animation: up-down 4.9s infinite alternate;
 }
-
+/*
 .continue-to-explore-outer{
     display: flex;
     margin-top: 5vh;
     margin-bottom: 5vh;
     height: 90vh;
     width: 69vh;
-    border: solid white 2px;
-    box-shadow: 2px 4px 6px rgba(0,0,0,.5);
-    border-radius: 10%;
     justify-content: center;
     align-items: center;
 }
@@ -291,9 +283,9 @@ a:hover{
     align-items: center;
     height: 10vh;
     width: 20vh;
-    border: white;
-    border-width: 1px;
+    border: black;
 }
+
 
 .grid-img{
     height: 10vh;
@@ -304,7 +296,7 @@ a:hover{
 .grid-img:hover{
     transform: scale(1.5);
 }
-
+*/
 #my-projects-title{
     padding-bottom: 10vh;
 }
@@ -325,10 +317,8 @@ a:hover{
     padding: 3vh;
     margin: 2vh;
     width: 40vw;
-    border-radius: 100px;
-    border: solid white 2px;
     
-    box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+    
     transition: transform 1s;
 }
 
@@ -338,9 +328,6 @@ a:hover{
 
 .project-thumbnail{
     height: 50%;
-    border: white solid 2px;
-    border-radius: 100%;
-    box-shadow: 2px 4px 6px rgba(0,0,0,.5);
 }
 
 .project-caption{
@@ -348,24 +335,19 @@ a:hover{
     flex-direction: column;
     align-items: center;
     font-size: 2.5vh;
-    color: white;
+    color: black;
 }
 
 .project-link{
     font-size: 3vh;
-    color: white;
+    color: black;
     border-radius: 20px;
     padding-left: 1vh;
     padding-right: 1vh;
     margin: 2vh;
-    border: black solid 2px;
-    background: radial-gradient(#424242, #000000);
-    box-shadow: 2px 4px 6px rgba(0,0,0,.5);
 }
 
-#project-1-thumbnail{
-    border-radius: 50px;
-}
+
 
 #project-2-thumbnail{
     height: 10vh;
@@ -374,13 +356,11 @@ a:hover{
 
 #project-3-thumbnail{
     height: 30vh;
-    border-radius: 20px;
 }
 
 #project-4-thumbnail{
     height: 18vh;
     width: 24vw;
-    border-radius: 20px;
     
 }
 
