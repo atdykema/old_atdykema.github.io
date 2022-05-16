@@ -1,0 +1,454 @@
+@font-face{
+    font-family: main-font;
+    src:url(/app/resources/Alcubierre.otf)
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+div{
+    display: block;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: main-font;
+    background: url(images/phasnr_background_ps.png);
+}
+
+a{
+    text-decoration: none;
+    transition: .1s;
+}
+
+a:hover{
+    animation: button-hover ease .1s;
+    color: rgb(255, 174, 174);
+}
+
+.main-hero{
+    height: 97vh;
+    margin-bottom: 3vh;
+    
+}
+
+.inner-main-hero{
+    display: flex;
+    width: 80vw;
+    border-width: 1px;
+    
+    flex-direction: column;
+    align-items: center;
+    margin: 1vh;
+    height: 100%;
+    background-size: cover;
+    background: rgba(168, 168, 168, 0.1);
+    box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+    border-radius: 50px;
+}
+
+.title-name{
+    color: white;
+    margin-bottom: 10%;
+    font-size: 8vw;
+    transition: .1s;
+}
+
+.title-catch{
+    color: white;
+    
+    font-size: 3vw;
+    transition: .3s;
+}
+
+.nav-bar{
+    padding-top: 6%;
+    font-size: 3vw;
+    color: white;
+    transition: .2s;
+    margin-bottom: 10%;
+}
+
+.nav-a{
+    color: white;
+}
+
+
+.subject-box{
+    height: auto;
+}
+
+.inner-subject-box{
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    height: 100%;
+    background-size: cover;
+    background: rgba(168, 168, 168, 0.1);
+    box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+    border-radius: 50px;
+}
+
+.subject-title{
+    padding-top: 10vh;
+    font-size: 6vw;
+    font-weight: 500;
+    color: white;
+}
+
+.subject-body{
+    padding: 5vw;
+    font-size: 3vw;
+}
+
+.skill-box-big{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    width: 70vw;
+    font-size: 5vw;
+    border-radius: 2vh;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vh;
+    color: white;
+    margin: 5vw;
+}
+
+.about-me-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.skills{
+    transition: transform 1s;
+}
+.skills:hover{
+    transform: scale(1.1);
+}
+
+.name-skills{
+    font-size: 10vh;
+    color:white;
+}
+
+#python-skill-box{
+    background: linear-gradient(to right, #4B8BBE , #FFD43B);
+    box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+}
+
+#python-skill{
+    padding-top: 1.25vh;
+    height: 20vh;
+    width: auto;
+    animation: up-down 4.7s infinite alternate;
+}
+
+#java-skill-box{
+    background: linear-gradient(to right, #f89820 33%, #5382a1);
+    box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+}
+
+#java-skill{
+    padding-bottom: 1.25vh;
+    height: 20vh;
+    width: auto;
+    animation: up-down 5.3s infinite alternate;
+}
+
+#c-skill-box{
+    background: linear-gradient(to right, #ffffff , #003DA7);
+    box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+}
+
+#c-skill{
+    padding-top: 1.25vh;
+    height: 20vh;
+    width: auto;
+    animation: up-down 5s infinite alternate;
+}
+
+#k8-skill-box{
+    background: linear-gradient(to right, #346ce4, #ffffff);
+    box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+    
+}
+
+#k8-skill{
+    padding-top: 1.25vh;
+    height: 25vh;
+    width: auto;
+    animation: up-down 5.7s infinite alternate;
+    padding-right: 5vh;
+    margin-left: 2vh;
+    
+}
+
+#k8-name-skill{
+    padding-right: 15vh;
+}
+
+#terraform-skill-box{
+    background: linear-gradient(to right, #4444b4, #846fec );
+    box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+}
+
+#terraform-skill{
+    padding-top: 1.25vh;
+    height: 25vh;
+    width: auto;
+    animation: up-down 5.5s infinite alternate;
+}
+
+#aws-skill-box{
+    background: linear-gradient(to right, 	#232f3e, 	#ff9900 );
+    box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+}
+
+#aws-skill{
+    padding-top: 1.25vh;
+    height: 15vh;
+    width: auto;
+    animation: up-down 4.5s infinite alternate;
+}
+
+#linux-skill{
+    padding-top: 1.25vh;
+    height: 25vh;
+    width: auto;
+    animation: up-down 5.3s infinite alternate;
+}
+
+#linux-skill-box{
+    background: linear-gradient(to right, #ffdf2d 30%, #000000, #ffffff);
+    box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+}
+
+#docker-skill-box{
+    background: linear-gradient(to right, 	#52a0ff, 	#bebebe );
+    box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+}
+
+#docker-skill{
+    padding-top: 1.25vh;
+    height: 15vh;
+    width: auto;
+    animation: up-down 4s infinite alternate;
+}
+
+#git-skill-box{
+    background: linear-gradient(to right, 	#000000, 	#ffffff );
+    box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+}
+
+#git-skill{
+    padding-top: 1.25vh;
+    height: 15vh;
+    width: auto;
+    animation: up-down 4.9s infinite alternate;
+}
+
+.continue-to-explore-outer{
+    display: flex;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    height: 90vh;
+    width: 69vh;
+    border: solid white 2px;
+    box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.continue-to-explore-inner{
+    display: grid;
+    padding-top: 15%;
+    height: 90vh;
+    width: 69vh;
+    border-radius: 5%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3vh;
+}
+
+.continue-to-explore-grid-object{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 20vh;
+    border: white;
+    border-width: 1px;
+}
+
+.grid-img{
+    height: 10vh;
+    width: 10vh;
+    transition: transform 1s;
+}
+
+.grid-img:hover{
+    transform: scale(1.5);
+}
+
+#my-projects-title{
+    padding-bottom: 10vh;
+}
+
+.project-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 60vh;
+    width: 80vw;
+    margin-bottom: 5vh;
+}
+
+.single-project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vh;
+    margin: 2vh;
+    width: 40vw;
+    border-radius: 100px;
+    border: solid white 2px;
+    
+    box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+    transition: transform 1s;
+}
+
+.single-project:hover{
+    transform: scale(1.2);
+}
+
+.project-thumbnail{
+    height: 50%;
+    border: white solid 2px;
+    border-radius: 100%;
+    box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+}
+
+.project-caption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5vh;
+    color: white;
+}
+
+.project-link{
+    font-size: 3vh;
+    color: white;
+    border-radius: 20px;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    margin: 2vh;
+    border: black solid 2px;
+    background: radial-gradient(#424242, #000000);
+    box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+}
+
+#project-1-thumbnail{
+    border-radius: 50px;
+}
+
+#project-2-thumbnail{
+    height: 10vh;
+    
+}
+
+#project-3-thumbnail{
+    height: 30vh;
+    border-radius: 20px;
+}
+
+#project-4-thumbnail{
+    height: 18vh;
+    width: 24vw;
+    border-radius: 20px;
+    
+}
+
+
+
+#contact-me-title{
+    margin-bottom: 10vh;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    width: 50vw;
+    justify-content: space-around;
+}
+
+.github-contact-img{
+    height: 10vh;
+}
+
+.linked-contact-img{
+    height: 10vh;
+}
+
+.email-contact-img{
+    height: 11vh;
+}
+
+.contact-object{
+    transition: transform .1s;
+}
+
+.contact-object:hover{
+    transform: scale(1.5);
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes scale-good {
+    0%{
+        transform: scale(1.0);
+    }
+    100%{
+        transform: scale(1.5);
+    }
+}
+
+@keyframes up-down {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(1vh);
+    }
+}
+
+@keyframes button-hover{
+    0%{
+        color: inherit;
+    }
+    100%{
+        color: rgb(255, 174, 174);
+    }
+    
+}
