@@ -64,6 +64,7 @@ a:not(.abs-icon):hover{
     width: 80vw;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin: 1vh;
     height: 100%;
     background-size: cover;
@@ -118,7 +119,6 @@ a:not(.abs-icon):hover{
 
 .title-catch{
     color: black;
-    padding-top: 8%;
     font-size: 3vw;
     animation: fadeinSliderightNoDelay ease-in-out 2s;
 }
