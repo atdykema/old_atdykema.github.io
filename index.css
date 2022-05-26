@@ -534,23 +534,33 @@ a:not(.abs-icon):hover{
 
 #my-experience-title{
     padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-bottom: 3vh;
 }
 
 .single-experience{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3vh;
-    margin: 2vh;
-    width: 40vw;
-    
+    width: 30vw;
+    padding-top: 2vh;
     
     transition: transform 1s;
 }
 
 .single-experience:hover{
     transform: scale(1.2);
+}
+
+.experience-row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#experience-sub{
+    font-style: italic;
+    padding-bottom: 7vh;
 }
 
 
