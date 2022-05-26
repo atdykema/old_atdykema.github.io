@@ -113,14 +113,14 @@ a:not(.abs-icon):hover{
     color: black;
     padding-top: 8%;
     font-size: 3vw;
-    animation: fadein ease-in 1s;
+    animation: fadeinSlideleftNoDelay ease-in-out 1s;
 }
 
 .nav-bar{
     padding-top: 2%;
     font-size: 3vw;
     color: black;
-    animation: fadein ease-in 1s;
+    animation: fadeinSliderightNoDelay ease-in-out 1s;
 }
 
 .nav-a{
@@ -593,12 +593,34 @@ footer{
     }
 }
 
+@keyframes fadeinSlideleftNoDelay{
+    0%{
+        transform: translateX(-5vw);
+        opacity: 0%;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 100%;
+    }
+}
+
 @keyframes fadeinSlideright{
     0%{
         transform: translateX(5vw);
         opacity: 0%;
     }
     50%{
+        opacity: 0%;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 100%;
+    }
+}
+
+@keyframes fadeinSliderightNoDelay{
+    0%{
+        transform: translateX(5vw);
         opacity: 0%;
     }
     100%{
