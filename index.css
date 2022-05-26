@@ -71,7 +71,14 @@ a:not(.abs-icon):hover{
 }
 
 .olivebranch-img{
-    padding-bottom: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+}
+
+.cheetah-img{
+    height: 50vh;
+    padding-top: 20vh;
+    padding-bottom: 8vh;
 }
 
 .giraffe-img{
@@ -98,14 +105,14 @@ a:not(.abs-icon):hover{
 }
 
 #title-name-andrew{
-    animation: fadeinSlideleft ease-in-out 2s;
+    animation: fadeinSlideleft ease-in-out 3s;
     padding-top: 10vh;
     margin-right: 20vw;
 }
 
 #title-name-dykema{
     margin-left: 20vw;
-    animation: fadeinSlideright ease-in-out 2s;
+    animation: fadeinSlideright ease-in-out 3s;
     padding-bottom: 8vh;
 }
 
@@ -113,14 +120,14 @@ a:not(.abs-icon):hover{
     color: black;
     padding-top: 8%;
     font-size: 3vw;
-    animation: fadeinSlideleftNoDelay ease-in-out 1s;
+    animation: fadeinSliderightNoDelay ease-in-out 2s;
 }
 
 .nav-bar{
     padding-top: 2%;
     font-size: 3vw;
     color: black;
-    animation: fadeinSliderightNoDelay ease-in-out 1s;
+    animation: fadeinSlideleftNoDelay ease-in-out 2s;
 }
 
 .nav-a{
@@ -167,6 +174,7 @@ a:not(.abs-icon):hover{
     color: black;
     margin: 2vw;
     margin-bottom: 3vh;
+    padding-bottom: 15vh;
 }
 
 .about-me-p{
@@ -421,6 +429,11 @@ a:not(.abs-icon):hover{
     transform: scale(1.5);
 }
 */
+
+#my-projects{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
 #my-projects-title{
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -495,6 +508,51 @@ a:not(.abs-icon):hover{
     
 }
 
+#everbridge{
+    height: 25vh;
+}
+
+#microsoft{
+    height: 25vh;
+}
+
+.company-name{
+    font-size: 5vh;
+}
+
+.experience-title{
+    font-size: 3vh;
+}
+
+.experience-date{
+    font-size: 2vh;
+}
+
+#my-experience{
+    padding-top: 10vh;
+    padding-bottom: 25vh;
+}
+
+#my-experience-title{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.single-experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vh;
+    margin: 2vh;
+    width: 40vw;
+    
+    
+    transition: transform 1s;
+}
+
+.single-experience:hover{
+    transform: scale(1.2);
+}
 
 
 #contact-me-title{
@@ -525,11 +583,15 @@ a:not(.abs-icon):hover{
 }
 
 .contact-object{
-    transition: transform .1s;
+    transition: transform 1s;
 }
 
 .contact-object:hover{
     transform: scale(1.5);
+}
+
+#contact-resume{
+    font-size: 10vh;
 }
 
 footer{
@@ -598,6 +660,9 @@ footer{
         transform: translateX(-5vw);
         opacity: 0%;
     }
+    25%{
+        opacity: 0%;
+    }
     100%{
         transform: translateX(0);
         opacity: 100%;
@@ -621,6 +686,9 @@ footer{
 @keyframes fadeinSliderightNoDelay{
     0%{
         transform: translateX(5vw);
+        opacity: 0%;
+    }
+    25%{
         opacity: 0%;
     }
     100%{
