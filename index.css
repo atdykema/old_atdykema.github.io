@@ -217,7 +217,7 @@ a:not(.abs-icon):hover{
     padding-top: 1.25vh;
     height: 10vh;
     width: auto;
-    animation: up-down 4.7s infinite alternate;
+    animation: up-down 4.3s infinite alternate;
 }
 
 #golang-skill-box{
@@ -230,7 +230,7 @@ a:not(.abs-icon):hover{
     padding-top: 1.25vh;
     height: 5vh;
     width: auto;
-    animation: up-down 4.7s infinite alternate;
+    animation: up-down 5.1s infinite alternate;
 }
 
 #js-skill-box{
