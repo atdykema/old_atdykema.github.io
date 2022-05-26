@@ -8,6 +8,15 @@
     src:url(../resources/metro.ttf)
 }
 
+*{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+    display: none;
+}
 
 html{
     scroll-behavior: smooth;
@@ -48,8 +57,6 @@ a:not(.abs-icon):hover{
 
 .main-hero{
     height: 97vh;
-    margin-bottom: 3vh;
-    
 }
 
 .inner-main-hero{
@@ -61,6 +68,21 @@ a:not(.abs-icon):hover{
     height: 100%;
     background-size: cover;
     
+}
+
+.olivebranch-img{
+    padding-bottom: 10vh;
+}
+
+.giraffe-img{
+    padding-top: 10vh;
+    padding-bottom: 8vh;
+}
+
+.orangebird-img{
+    height: 50px;
+    width: 50px;
+    padding-right: .25vw;
 }
 
 .title-name-box{
